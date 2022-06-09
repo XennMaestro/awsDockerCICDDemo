@@ -15,6 +15,6 @@ public class TestDockerApplication {
 
 	@GetMapping
 	public String getMessage(){
-		return "Hello World!";
+		return "Hello  2!";
 	}
 }
