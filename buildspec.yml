@@ -1,9 +1,6 @@
 version: 0.2
 
 phases:
-  Install:
-    runtime-version:
-      java: openjdk11
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
@@ -17,7 +14,7 @@ phases:
       - echo Build started on 'date'
       - echo Building jar file using Maven
       - mvn --version
-      - mvn clean install
+      - mvn package
       - echo Building the Docker image...
       - docker build -t $REPOSITORY_URI:latest .
       - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
