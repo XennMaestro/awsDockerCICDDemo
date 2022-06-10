@@ -2,7 +2,7 @@ version: 0.2
 
 phases:
   Install:
-    runtime-version:
+    runtime-versions:
       java: openjdk11
   pre_build:
     commands:
