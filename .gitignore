@@ -23,9 +23,11 @@ hs_err_pid*
 
 #All Project related folders and files
 .idea/
+.vscode/
 /shelf/
 /workspace.xml
 target/
 target/*
 target\surefire-reports\com.test.testDocker.TestDockerApplicationTests.txt
-target\surefire-reports\com.test.testDocker.TestDockerApplicationTests.txt
+target\awsDockerCICD.jar
+target\awsDockerCICD.jar.original
