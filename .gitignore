@@ -27,3 +27,5 @@ hs_err_pid*
 /workspace.xml
 target/
 target/*
+target\surefire-reports\com.test.testDocker.TestDockerApplicationTests.txt
+target\surefire-reports\com.test.testDocker.TestDockerApplicationTests.txt
